@@ -1,10 +1,10 @@
-# nano-usedebounce
+# Nano useDebounce()
 
-A lightweight React hook to debounce API calls and functions. Perfect for optimizing performance by reducing the frequency of expensive operations like API calls, search queries, or any function that should only execute after a period of inactivity.
+An ultra lightweight React hook to debounce API calls and functions. Perfect for optimizing performance by reducing the frequency of expensive operations like API calls, search queries, or any function that should only execute after a period of inactivity.
 
 ## Features
 
-- 🚀 **Lightweight** - Minimal bundle size with zero dependencies
+- 🚀 **Lightweight** - _2498 bytes_ bundle with zero dependencies
 - 🎯 **TypeScript Support** - Full TypeScript support with proper type inference
 - ⚡ **Performance Optimized** - Efficient implementation using React refs
 - 🔄 **Memory Safe** - Automatically cleans up timers to prevent memory leaks
