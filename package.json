@@ -1,0 +1,44 @@
+{
+  "name": "nano-usedebounce",
+  "version": "1.0.0",
+  "description": "A lightweight react hook to debounce API calls and functions",
+  "keywords": [
+    "react",
+    "hook",
+    "debounce",
+    "useDebounce",
+    "typescript"
+  ],
+  "homepage": "https://github.com/thomasvalera/nano-usedebounce#readme",
+  "bugs": {
+    "url": "https://github.com/thomasvalera/nano-usedebounce/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasvalera/nano-usedebounce.git"
+  },
+  "license": "MIT",
+  "author": "Thomas Valera",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0"
+  }
+}
